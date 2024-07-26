@@ -1,0 +1,199 @@
+.starter-template {
+	padding: 100px 15px 0px 15px;
+}
+
+.real_nav {
+	margin-left : auto;
+	margin-right : auto;
+	padding-left : 15px;
+	padding-right : 15px;
+	
+}
+
+.nav_top {
+	background-color: #C00002;
+	border-color: #C00002;
+}
+
+.nav_bot {
+	background-color: #f20202;
+	border-color: #f20202;
+}
+
+
+@media (min-width: 768px){
+    .navbar-nav{
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+        float:none;
+    }
+}
+
+.online-plan {
+	padding-bottom: 10px;
+	margin-top:10px;
+	
+	border-radius: 3px;
+	
+	background-color: #FF4000;
+}
+
+.class-plan {
+	padding-bottom: 10px;
+	margin-top:10px;
+	
+	border-radius: 3px;
+	
+	background: #FF8000;
+}
+
+.coop-plan {
+	padding-bottom: 10px;
+	margin-top:10px;
+	padding-right:0px;
+	padding-left: 0px;
+	
+	border-radius: 3px;
+	
+	background: #FE642E;
+}
+
+.individual-coop-price {
+	padding-left: 0px;
+	padding-right: 0px;
+		
+}
+
+.row-last {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.price {
+	background: rgba(0,0,0,0.18);
+	border-radius: 10px;
+	width: 90px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+.currency {
+	position: relative;
+	top: -8px;
+	left: -7px;
+	text-align: center;
+	color: #ffffff;
+	line-height: 14px;	
+}
+
+.amount {
+	margin: 0px 0px 0px -10px;
+	font-weight: bold;
+	font-size: 28px;
+	color: #ffffff;
+}
+
+.rate {
+	color: #ffffff;
+}
+
+.price-container {
+	text-align: center;
+}
+
+.amount-container {
+	text-align: center;
+	padding: 10px 0px 0px 0px;
+}
+
+.plan-separator {
+	float: left;
+	width: 3px;
+	height: 280px;
+	margin: 40px 30px 0 30px;
+	background: #333;
+}
+
+.size {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+.membership-silver {
+	padding-bottom: 10px;
+	margin-top:10px;
+	
+	border-radius: 3px;
+	
+	background: silver;
+}
+
+.membership-gold {
+	padding-bottom: 10px;
+	margin-top:10px;
+
+	border-radius: 3px;
+	background: #FFD700;
+}
+
+.membership-platinum {
+	padding-bottom: 10px;
+	margin-top:10px;
+	
+	border-radius: 3px;
+	background: #E5E4E2;
+}
+
+.membership-price {
+	background: rgba(0,0,0,0.18);
+	border-radius: 50px;
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+.membership-amount-container {
+	text-align: center;
+	padding: 21px 0px 0px 0px;
+}
+
+.membership-currency {
+	position: relative;
+	top: -17px;
+	left: -7px;
+	text-align: center;
+	color: #ffffff;
+	line-height: 14px;	
+}
+
+.membership-amount {
+	margin: 0px 0px 0px -10px;
+	font-weight: bold;
+	font-size: 40px;
+	color: #ffffff;
+}
+
+.membership-wrap {
+	overflow: hidden;
+}
+
+.mem-col {
+	margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+
+.gallery {
+	margin-top: 20px;
+	
+	padding: 5px 5px 5px 5px;
+	
+}
+
+.carousel-inner {
+	width: 100%;
+}
+
+
