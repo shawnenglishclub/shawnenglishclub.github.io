@@ -57,32 +57,12 @@ function page () {
 			$(val).css("margin-top", new_margin_top);
 		}
 		
-//		console.log("W: " + new_img_width + " H: " + new_img_height);
-		
 		$(val).width(new_img_width);
 		$(val).height(new_img_height);
 	});
-	
-	
-	
-	
 	
 	var recentEvents = $("<h2>");
 	var recentEventsLink = $("<a>").attr("href", "/events").text(str_event);
 	recentEvents.append(recentEventsLink).appendTo($(".recent-events"));
 	
-	var eventList = new Array();
-	if (eventList.length == 0) {
-		$("<p>").text(str_event_no_event).appendTo($(".recent-events"));
-	} else {
-		for (var i = 0; i < eventList.size; i++) {
-			// TODO add events here
-		}
-	}
-	
-	
-	
-	
-	
 }
-
